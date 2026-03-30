@@ -1,0 +1,9 @@
+pandas==2.3.3 # untuk manipulasi data
+numpy==2.3.5 # untuk manipulasi data
+sqlalchemy==2.0.43 # untuk push ke PostgreSQL
+
+streamlit==1.51.0 # untuk membuat aplikasi web interaktif
+python-dotenv==1.0.0
+dotenv==0.9.9 # untuk membaca file .env
+psycopg2-binary==2.9.11 # bridge untuk PostgreSQL
+openpyxl==3.1.5 # untuk membaca file Excel
