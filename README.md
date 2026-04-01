@@ -1,5 +1,5 @@
 # 📊 **ETL Data to PostgreSQL using Python**
-This project aims to do data cleaning using pandas and numpy and storing it in PostgreSQL database using Docker
+Previously I've been using KNIME to support my daily data entry tasks. Now I try to make small experiment by comparing it with Python from raw to database and verification
 
 ## 🗃️ **Dataset**
 ▪️I'm using data which have ~370k rows per day
