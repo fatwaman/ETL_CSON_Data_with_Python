@@ -2,8 +2,10 @@
 Previously I've been using KNIME to support my daily data entry tasks. Now I try to make small experiment by comparing it with Python from raw to database and verification
 
 ### 🗃️ **Dataset**
-▪️I'm using data which have ~370k rows per day
-▪️In this experiment, I used 4 days of data
+- I'm using data which have ~370k rows per day
+- In this experiment, I used 4 days of data
+
+----------
 
 ### 📚 **Data Ingestion flow:**
 The flow itself is not too complex:
@@ -12,7 +14,7 @@ The flow itself is not too complex:
 
    KNIME/Python will check and extract the file(s) which have specific filename
 
-2. **Put data in defined folder**
+2. **Data trasnformation**
 
    In this part, the transformation process is simple
    - Change the data format to "𝘥𝘥/𝘮𝘮/𝘺𝘺"
@@ -33,16 +35,19 @@ The flow itself is not too complex:
 
 Your data is successfully ingested into database 🎉
 
-### 📚 **Result from experiment**
+----------
+
+### 📊 **Result from experiment**
 - As on video, KNIME Analytics need 115s and Python need 87s to ingest data from raw to data verification. Python is ~25% more faster than KNIME
 - The advantage of using KNIME is that we are not required to master coding because the way to operate it is simply "drag and drop"
 - Whereas by Python, we at least need to have the ability to understand the algorithm which are then translated into coding script
-<div align="left">
+<div align="center">
   <img src="https://github.com/fatwaman/ETL_CSON_Data_with_Python/blob/master/Result_Compare_KNIME_vs_Python.jpg" height="600" alt="compare Knime vs Python"  />
   <img width="600" />
 </div>
 
-----------
+---------
+
 ### 🔆 **Lesson learned from this experiment**
 
 The lessons learned were more focused on creating Python code. I encountered many errors, but from here we'll learn how to fix them. For example:
