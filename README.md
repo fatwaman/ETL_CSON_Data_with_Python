@@ -1,11 +1,11 @@
 # 📊 **ETL Data to PostgreSQL using Python**
 Previously I've been using KNIME to support my daily data entry tasks. Now I try to make small experiment by comparing it with Python from raw to database and verification
 
-## 🗃️ **Dataset**
+### 🗃️ **Dataset**
 ▪️I'm using data which have ~370k rows per day
 ▪️In this experiment, I used 4 days of data
 
-## 📚 **Data Ingestion flow:**
+### 📚 **Data Ingestion flow:**
 The flow itself is not too complex:
 
 1. **Put data in defined folder**
@@ -33,7 +33,7 @@ The flow itself is not too complex:
 
 Your data is successfully ingested into database 🎉
 
-## 📚 **Result from experiment**
+### 📚 **Result from experiment**
 - As on video, KNIME Analytics need 115s and Python need 87s to ingest data from raw to data verification. Python is ~25% more faster than KNIME
 - The advantage of using KNIME is that we are not required to master coding because the way to operate it is simply "drag and drop"
 - Whereas by Python, we at least need to have the ability to understand the algorithm which are then translated into coding script
@@ -43,7 +43,7 @@ Your data is successfully ingested into database 🎉
 </div>
 
 ----------
-## 🔆 **Lesson learned from this experiment**
+### 🔆 **Lesson learned from this experiment**
 
 The lessons learned were more focused on creating Python code. I encountered many errors, but from here we'll learn how to fix them. For example:
 
